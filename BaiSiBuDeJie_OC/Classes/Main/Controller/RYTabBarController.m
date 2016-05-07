@@ -27,9 +27,15 @@
 + (void)load {
     UITabBarItem *tabBarItem = [UITabBarItem appearanceWhenContainedInInstancesOfClasses:@[self]];
     
+    // 标题字体颜色
     NSMutableDictionary *attr = [NSMutableDictionary dictionary];
-    attr[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
+    attr[NSFontAttributeName] = [UIFont systemFontOfSize:13];
     [tabBarItem setTitleTextAttributes:attr forState:UIControlStateNormal];
+    
+    // 标题字体被选中的颜色
+    NSMutableDictionary *attrSel = [NSMutableDictionary dictionary];
+    attrSel[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
+    [tabBarItem setTitleTextAttributes:attrSel forState:UIControlStateSelected];
 }
 
 - (void)viewDidLoad {

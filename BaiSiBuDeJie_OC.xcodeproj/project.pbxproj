@@ -22,6 +22,8 @@
 		BF2A16361CD9F3B900A395F0 /* RYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16351CD9F3B900A395F0 /* RYTabBar.m */; };
 		BF2A16391CDA085400A395F0 /* RYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16381CDA085400A395F0 /* RYNavigationController.m */; };
 		BF2A163C1CDA162A00A395F0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A163B1CDA162A00A395F0 /* UIView+Frame.m */; };
+		BFEAC0D31CDD954C00AC72FE /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAC0D21CDD954C00AC72FE /* UIBarButtonItem+Item.m */; };
+		BFEAC0D61CDDAFF200AC72FE /* RYSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAC0D51CDDAFF200AC72FE /* RYSubTagViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,10 @@
 		BF2A16381CDA085400A395F0 /* RYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNavigationController.m; sourceTree = "<group>"; };
 		BF2A163A1CDA162A00A395F0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		BF2A163B1CDA162A00A395F0 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BFEAC0D11CDD954C00AC72FE /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		BFEAC0D21CDD954C00AC72FE /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		BFEAC0D41CDDAFF200AC72FE /* RYSubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSubTagViewController.h; sourceTree = "<group>"; };
+		BFEAC0D51CDDAFF200AC72FE /* RYSubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSubTagViewController.m; sourceTree = "<group>"; };
 		E773E139DE706B650C1E3F86 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -289,6 +295,8 @@
 			children = (
 				BF2A16241CD9EA1F00A395F0 /* RYNewViewController.h */,
 				BF2A16251CD9EA1F00A395F0 /* RYNewViewController.m */,
+				BFEAC0D41CDDAFF200AC72FE /* RYSubTagViewController.h */,
+				BFEAC0D51CDDAFF200AC72FE /* RYSubTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -327,6 +335,8 @@
 				BF2A16311CD9EDF700A395F0 /* UIImage+Render.m */,
 				BF2A163A1CDA162A00A395F0 /* UIView+Frame.h */,
 				BF2A163B1CDA162A00A395F0 /* UIView+Frame.m */,
+				BFEAC0D11CDD954C00AC72FE /* UIBarButtonItem+Item.h */,
+				BFEAC0D21CDD954C00AC72FE /* UIBarButtonItem+Item.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -493,12 +503,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2A163C1CDA162A00A395F0 /* UIView+Frame.m in Sources */,
+				BFEAC0D61CDDAFF200AC72FE /* RYSubTagViewController.m in Sources */,
 				BF2A16261CD9EA1F00A395F0 /* RYNewViewController.m in Sources */,
 				BF2A16321CD9EDF700A395F0 /* UIImage+Render.m in Sources */,
 				BF2A16291CD9EA2B00A395F0 /* RYPublishViewController.m in Sources */,
 				BF2A16231CD9EA1200A395F0 /* RYEssenceViewController.m in Sources */,
 				BF2A161C1CD9E0E700A395F0 /* AppDelegate.m in Sources */,
 				BF2A162F1CD9EA5300A395F0 /* RYMineViewController.m in Sources */,
+				BFEAC0D31CDD954C00AC72FE /* UIBarButtonItem+Item.m in Sources */,
 				BF2A16361CD9F3B900A395F0 /* RYTabBar.m in Sources */,
 				BF2A16201CD9E83D00A395F0 /* RYTabBarController.m in Sources */,
 				BF2A16391CDA085400A395F0 /* RYNavigationController.m in Sources */,

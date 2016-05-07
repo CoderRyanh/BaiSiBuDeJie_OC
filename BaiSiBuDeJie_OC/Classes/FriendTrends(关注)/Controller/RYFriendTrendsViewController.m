@@ -18,6 +18,24 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor purpleColor];
+    
+    // 设置导航条内容
+    [self setupNavigationBar];
+}
+
+/**
+ *  设置导航条内容
+ */
+- (void)setupNavigationBar {
+    // 设置中间标题
+    self.navigationItem.title = @"我的关注";
+    
+    // 设置左边按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithimage:[UIImage imageNamed:@"friendsRecommentIcon"] highlightImage:[UIImage imageNamed:@"friendsRecommentIcon-click"] target:self action:@selector(friendsRecomment)];
+}
+
+- (void)friendsRecomment {
+    
 }
 
 @end
