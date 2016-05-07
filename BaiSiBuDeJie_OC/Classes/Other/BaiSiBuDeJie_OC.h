@@ -9,6 +9,7 @@
 #import "UIImage+Render.h"
 #import "UIView+Frame.h"
 #import "UIBarButtonItem+Item.h"
+#import "UIColor+Hex.h"
 
 
 

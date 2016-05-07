@@ -24,6 +24,10 @@
 		BF2A163C1CDA162A00A395F0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A163B1CDA162A00A395F0 /* UIView+Frame.m */; };
 		BFEAC0D31CDD954C00AC72FE /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAC0D21CDD954C00AC72FE /* UIBarButtonItem+Item.m */; };
 		BFEAC0D61CDDAFF200AC72FE /* RYSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAC0D51CDDAFF200AC72FE /* RYSubTagViewController.m */; };
+		BFEAC0DD1CDDC50600AC72FE /* RYSubTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAC0DB1CDDC50600AC72FE /* RYSubTagCell.m */; };
+		BFEAC0DE1CDDC50600AC72FE /* RYSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFEAC0DC1CDDC50600AC72FE /* RYSubTagCell.xib */; };
+		BFEAC0E11CDDC99500AC72FE /* RYSubTag.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAC0E01CDDC99500AC72FE /* RYSubTag.m */; };
+		BFEAC0E41CDDE8E100AC72FE /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAC0E31CDDE8E100AC72FE /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +65,13 @@
 		BFEAC0D21CDD954C00AC72FE /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		BFEAC0D41CDDAFF200AC72FE /* RYSubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSubTagViewController.h; sourceTree = "<group>"; };
 		BFEAC0D51CDDAFF200AC72FE /* RYSubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSubTagViewController.m; sourceTree = "<group>"; };
+		BFEAC0DA1CDDC50600AC72FE /* RYSubTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSubTagCell.h; sourceTree = "<group>"; };
+		BFEAC0DB1CDDC50600AC72FE /* RYSubTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSubTagCell.m; sourceTree = "<group>"; };
+		BFEAC0DC1CDDC50600AC72FE /* RYSubTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYSubTagCell.xib; sourceTree = "<group>"; };
+		BFEAC0DF1CDDC99500AC72FE /* RYSubTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSubTag.h; sourceTree = "<group>"; };
+		BFEAC0E01CDDC99500AC72FE /* RYSubTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSubTag.m; sourceTree = "<group>"; };
+		BFEAC0E21CDDE8E100AC72FE /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		BFEAC0E31CDDE8E100AC72FE /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		E773E139DE706B650C1E3F86 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -304,6 +315,8 @@
 		BF2A16101CD9E0E700A395F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BFEAC0DF1CDDC99500AC72FE /* RYSubTag.h */,
+				BFEAC0E01CDDC99500AC72FE /* RYSubTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,6 +324,9 @@
 		BF2A16111CD9E0E700A395F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BFEAC0DA1CDDC50600AC72FE /* RYSubTagCell.h */,
+				BFEAC0DB1CDDC50600AC72FE /* RYSubTagCell.m */,
+				BFEAC0DC1CDDC50600AC72FE /* RYSubTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +347,8 @@
 		BF2A16151CD9E0E700A395F0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BFEAC0E21CDDE8E100AC72FE /* UIColor+Hex.h */,
+				BFEAC0E31CDDE8E100AC72FE /* UIColor+Hex.m */,
 				BF2A16301CD9EDF700A395F0 /* UIImage+Render.h */,
 				BF2A16311CD9EDF700A395F0 /* UIImage+Render.m */,
 				BF2A163A1CDA162A00A395F0 /* UIView+Frame.h */,
@@ -443,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2A15F61CD9E03B00A395F0 /* LaunchScreen.storyboard in Resources */,
+				BFEAC0DE1CDDC50600AC72FE /* RYSubTagCell.xib in Resources */,
 				BF2A15F31CD9E03B00A395F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,10 +522,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2A163C1CDA162A00A395F0 /* UIView+Frame.m in Sources */,
+				BFEAC0E41CDDE8E100AC72FE /* UIColor+Hex.m in Sources */,
 				BFEAC0D61CDDAFF200AC72FE /* RYSubTagViewController.m in Sources */,
 				BF2A16261CD9EA1F00A395F0 /* RYNewViewController.m in Sources */,
+				BFEAC0DD1CDDC50600AC72FE /* RYSubTagCell.m in Sources */,
 				BF2A16321CD9EDF700A395F0 /* UIImage+Render.m in Sources */,
 				BF2A16291CD9EA2B00A395F0 /* RYPublishViewController.m in Sources */,
+				BFEAC0E11CDDC99500AC72FE /* RYSubTag.m in Sources */,
 				BF2A16231CD9EA1200A395F0 /* RYEssenceViewController.m in Sources */,
 				BF2A161C1CD9E0E700A395F0 /* AppDelegate.m in Sources */,
 				BF2A162F1CD9EA5300A395F0 /* RYMineViewController.m in Sources */,
