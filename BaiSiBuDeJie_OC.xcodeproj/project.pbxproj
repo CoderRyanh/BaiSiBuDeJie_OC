@@ -12,6 +12,16 @@
 		BF2A15F61CD9E03B00A395F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2A15F41CD9E03B00A395F0 /* LaunchScreen.storyboard */; };
 		BF2A161C1CD9E0E700A395F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16141CD9E0E700A395F0 /* AppDelegate.m */; };
 		BF2A161D1CD9E0E700A395F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16171CD9E0E700A395F0 /* main.m */; };
+		BF2A16201CD9E83D00A395F0 /* RYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A161F1CD9E83D00A395F0 /* RYTabBarController.m */; };
+		BF2A16231CD9EA1200A395F0 /* RYEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16221CD9EA1200A395F0 /* RYEssenceViewController.m */; };
+		BF2A16261CD9EA1F00A395F0 /* RYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16251CD9EA1F00A395F0 /* RYNewViewController.m */; };
+		BF2A16291CD9EA2B00A395F0 /* RYPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16281CD9EA2B00A395F0 /* RYPublishViewController.m */; };
+		BF2A162C1CD9EA3A00A395F0 /* RYFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A162B1CD9EA3A00A395F0 /* RYFriendTrendsViewController.m */; };
+		BF2A162F1CD9EA5300A395F0 /* RYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A162E1CD9EA5300A395F0 /* RYMineViewController.m */; };
+		BF2A16321CD9EDF700A395F0 /* UIImage+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16311CD9EDF700A395F0 /* UIImage+Render.m */; };
+		BF2A16361CD9F3B900A395F0 /* RYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16351CD9F3B900A395F0 /* RYTabBar.m */; };
+		BF2A16391CDA085400A395F0 /* RYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A16381CDA085400A395F0 /* RYNavigationController.m */; };
+		BF2A163C1CDA162A00A395F0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2A163B1CDA162A00A395F0 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,27 @@
 		BF2A16131CD9E0E700A395F0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF2A16141CD9E0E700A395F0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF2A16171CD9E0E700A395F0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2A161E1CD9E83D00A395F0 /* RYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTabBarController.h; sourceTree = "<group>"; };
+		BF2A161F1CD9E83D00A395F0 /* RYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTabBarController.m; sourceTree = "<group>"; };
+		BF2A16211CD9EA1200A395F0 /* RYEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYEssenceViewController.h; sourceTree = "<group>"; };
+		BF2A16221CD9EA1200A395F0 /* RYEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYEssenceViewController.m; sourceTree = "<group>"; };
+		BF2A16241CD9EA1F00A395F0 /* RYNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewViewController.h; sourceTree = "<group>"; };
+		BF2A16251CD9EA1F00A395F0 /* RYNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewViewController.m; sourceTree = "<group>"; };
+		BF2A16271CD9EA2B00A395F0 /* RYPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYPublishViewController.h; sourceTree = "<group>"; };
+		BF2A16281CD9EA2B00A395F0 /* RYPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYPublishViewController.m; sourceTree = "<group>"; };
+		BF2A162A1CD9EA3A00A395F0 /* RYFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFriendTrendsViewController.h; sourceTree = "<group>"; };
+		BF2A162B1CD9EA3A00A395F0 /* RYFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYFriendTrendsViewController.m; sourceTree = "<group>"; };
+		BF2A162D1CD9EA5300A395F0 /* RYMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYMineViewController.h; sourceTree = "<group>"; };
+		BF2A162E1CD9EA5300A395F0 /* RYMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYMineViewController.m; sourceTree = "<group>"; };
+		BF2A16301CD9EDF700A395F0 /* UIImage+Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Render.h"; sourceTree = "<group>"; };
+		BF2A16311CD9EDF700A395F0 /* UIImage+Render.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Render.m"; sourceTree = "<group>"; };
+		BF2A16331CD9EE7B00A395F0 /* BaiSiBuDeJie_OC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiSiBuDeJie_OC.h; sourceTree = "<group>"; };
+		BF2A16341CD9F3B900A395F0 /* RYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTabBar.h; sourceTree = "<group>"; };
+		BF2A16351CD9F3B900A395F0 /* RYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTabBar.m; sourceTree = "<group>"; };
+		BF2A16371CDA085400A395F0 /* RYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNavigationController.h; sourceTree = "<group>"; };
+		BF2A16381CDA085400A395F0 /* RYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNavigationController.m; sourceTree = "<group>"; };
+		BF2A163A1CDA162A00A395F0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BF2A163B1CDA162A00A395F0 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		E773E139DE706B650C1E3F86 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,11 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				BF2A15FE1CD9E0E700A395F0 /* Essence(精华) */,
-				BF2A16021CD9E0E700A395F0 /* FriendTrends(关注) */,
-				BF2A16061CD9E0E700A395F0 /* Main */,
-				BF2A160A1CD9E0E700A395F0 /* Mine(我) */,
 				BF2A160E1CD9E0E700A395F0 /* New(新帖) */,
 				BF2A16181CD9E0E700A395F0 /* Publish(发布) */,
+				BF2A16021CD9E0E700A395F0 /* FriendTrends(关注) */,
+				BF2A160A1CD9E0E700A395F0 /* Mine(我) */,
+				BF2A16061CD9E0E700A395F0 /* Main */,
 				BF2A16121CD9E0E700A395F0 /* Other */,
 			);
 			path = Classes;
@@ -120,6 +151,8 @@
 		BF2A15FF1CD9E0E700A395F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A16211CD9EA1200A395F0 /* RYEssenceViewController.h */,
+				BF2A16221CD9EA1200A395F0 /* RYEssenceViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -151,6 +184,8 @@
 		BF2A16031CD9E0E700A395F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A162A1CD9EA3A00A395F0 /* RYFriendTrendsViewController.h */,
+				BF2A162B1CD9EA3A00A395F0 /* RYFriendTrendsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +217,10 @@
 		BF2A16071CD9E0E700A395F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A16371CDA085400A395F0 /* RYNavigationController.h */,
+				BF2A16381CDA085400A395F0 /* RYNavigationController.m */,
+				BF2A161E1CD9E83D00A395F0 /* RYTabBarController.h */,
+				BF2A161F1CD9E83D00A395F0 /* RYTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +235,8 @@
 		BF2A16091CD9E0E700A395F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A16341CD9F3B900A395F0 /* RYTabBar.h */,
+				BF2A16351CD9F3B900A395F0 /* RYTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,6 +254,8 @@
 		BF2A160B1CD9E0E700A395F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A162D1CD9EA5300A395F0 /* RYMineViewController.h */,
+				BF2A162E1CD9EA5300A395F0 /* RYMineViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -244,6 +287,8 @@
 		BF2A160F1CD9E0E700A395F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A16241CD9EA1F00A395F0 /* RYNewViewController.h */,
+				BF2A16251CD9EA1F00A395F0 /* RYNewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +315,7 @@
 				BF2A16151CD9E0E700A395F0 /* Category */,
 				BF2A16161CD9E0E700A395F0 /* Lib */,
 				BF2A16171CD9E0E700A395F0 /* main.m */,
+				BF2A16331CD9EE7B00A395F0 /* BaiSiBuDeJie_OC.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -277,6 +323,10 @@
 		BF2A16151CD9E0E700A395F0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A16301CD9EDF700A395F0 /* UIImage+Render.h */,
+				BF2A16311CD9EDF700A395F0 /* UIImage+Render.m */,
+				BF2A163A1CDA162A00A395F0 /* UIView+Frame.h */,
+				BF2A163B1CDA162A00A395F0 /* UIView+Frame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -301,6 +351,8 @@
 		BF2A16191CD9E0E700A395F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A16271CD9EA2B00A395F0 /* RYPublishViewController.h */,
+				BF2A16281CD9EA2B00A395F0 /* RYPublishViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -348,6 +400,7 @@
 		BF2A15DB1CD9E03B00A395F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CoderRyanh;
 				TargetAttributes = {
@@ -439,7 +492,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2A163C1CDA162A00A395F0 /* UIView+Frame.m in Sources */,
+				BF2A16261CD9EA1F00A395F0 /* RYNewViewController.m in Sources */,
+				BF2A16321CD9EDF700A395F0 /* UIImage+Render.m in Sources */,
+				BF2A16291CD9EA2B00A395F0 /* RYPublishViewController.m in Sources */,
+				BF2A16231CD9EA1200A395F0 /* RYEssenceViewController.m in Sources */,
 				BF2A161C1CD9E0E700A395F0 /* AppDelegate.m in Sources */,
+				BF2A162F1CD9EA5300A395F0 /* RYMineViewController.m in Sources */,
+				BF2A16361CD9F3B900A395F0 /* RYTabBar.m in Sources */,
+				BF2A16201CD9E83D00A395F0 /* RYTabBarController.m in Sources */,
+				BF2A16391CDA085400A395F0 /* RYNavigationController.m in Sources */,
+				BF2A162C1CD9EA3A00A395F0 /* RYFriendTrendsViewController.m in Sources */,
 				BF2A161D1CD9E0E700A395F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,9 +606,11 @@
 			baseConfigurationReference = E773E139DE706B650C1E3F86 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = BaiSiBuDeJie_OC/Classes/Other/BaiSiBuDeJie_OC.h;
 				INFOPLIST_FILE = BaiSiBuDeJie_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanh.BaiSiBuDeJie-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanh.BaiSiBuDeJieOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -555,9 +620,11 @@
 			baseConfigurationReference = 7D09229C0D78BFC5C90BBB6C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = BaiSiBuDeJie_OC/Classes/Other/BaiSiBuDeJie_OC.h;
 				INFOPLIST_FILE = BaiSiBuDeJie_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanh.BaiSiBuDeJie-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanh.BaiSiBuDeJieOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

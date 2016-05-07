@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "RYTabBarController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -18,9 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    UIViewController *vc = [[UIViewController alloc] init];
-    vc.view.backgroundColor = [UIColor redColor];
-    self.window.rootViewController = vc;
+    self.window.rootViewController = [[RYTabBarController alloc] init];
     [self.window makeKeyAndVisible];
     
     return YES;
